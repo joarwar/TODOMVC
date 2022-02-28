@@ -5,6 +5,7 @@ h1{
     font-weight: normal;
     text-align: center;
     grid-area: a;
+    margin-top:-5px;    
     
 }
 body{
@@ -17,6 +18,7 @@ body{
     justify-content: center;
     background: #f5f5f5;
     color: #4d4d4d;
+    margin-top:10px;
 }
 
 header{
@@ -29,7 +31,6 @@ header{
 main{
     margin: auto;
     width: 550px;
-
     border: 1px;
     box-shadow: 7px 10px 100px 5px lightgray;
     grid-area: c;
@@ -44,7 +45,8 @@ main footer{
     text-align: center;
     font-size:10px;
     font-family: Arial, Helvetica, sans-serif;
-    color:lightgray;
+    color:rgb(141, 137, 137);
+    margin-top:50px;
 }
 #todo{
     list-style-type:none;
@@ -52,7 +54,7 @@ main footer{
     display:block;
 }
 a{
-    color:lightgray;
+    color:rgb(141, 137, 137);
 }
 
 
@@ -85,18 +87,10 @@ main footer ul li button:hover{
     margin-left:175px;
     position:absolute;
 }
-main footer ul li button:hover{
-    border: 1px solid rgba(175, 47, 47, 0.15);
-
-}
-
-
 
 #inputarea{
     border-bottom: 1px solid lightgray;
     height:50px;
-
-    
 }
 #todo li{
     border-bottom: 1.2px solid rgba(161, 155, 155, 0.15);
@@ -124,19 +118,27 @@ main footer ul{
     padding: 7px;
 }
 main footer ul li{
-    font-size: small;
-    box-sizing:border-box;
+    font-size:medium;
+
 }
 #destroy{  
-    margin-left:400px;
+    float:right;
+    background:transparent;
+    border:none;
+    width: 5.5em;
+    
+
+}
+main form{
+    margin-top: 25px;;
+
+}
+main ul #todolist{
+    margin-top:25px;
 }
 
-li:hover{
-    border: 1px lightgray;
-}
 #count{
     font-size: 16px;
 
     color: rgb(156, 154, 154);
 }
-apa
