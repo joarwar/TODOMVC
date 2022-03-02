@@ -95,7 +95,6 @@ main footer ul li button:hover{
 #todo li{
     border-bottom: 1.2px solid rgba(161, 155, 155, 0.15);
     font-size: large;
-    height:50px;
 }
 
 #todo{
@@ -126,8 +125,6 @@ main footer ul li{
     background:transparent;
     border:none;
     width: 5.5em;
-    
-
 }
 main form{
     margin-top: 25px;;
@@ -141,4 +138,9 @@ main ul #todolist{
     font-size: 16px;
 
     color: rgb(156, 154, 154);
+}
+
+
+#executeButton{
+    display:none;
 }

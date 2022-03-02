@@ -18,19 +18,20 @@
         <form id="inputarea">
             <input id="check-all" type="checkbox">
             <input id="input" placeholder="What need to be done?" size="50" autofocus="">
+            <button type="submit" id="executeButton"></button>
         </form>
-        <ul id="todo">
-            <li id="todolist">
+        <ul id="todo" >
+            <li id="todolist" onmouseover="mouseOver()" onmouseout="mouseOut()">
                 <input type="checkbox">
                 bbb
                 <!-- dommanipulation -->
                 <button id="destroy">❌</button>
             </li>
-            <li id="todolist">
+            <li id="todolist" onmouseover="mouseOver()" onmouseout="mouseOut()" >
                 <input type="checkbox">
                 asdasd
                 <!-- dommanipulation -->
-                <button id="destroy">❌</button>
+                <button id="destroy" >❌</button>
             </li>
 
         </ul>
