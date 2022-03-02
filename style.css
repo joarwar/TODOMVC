@@ -139,8 +139,6 @@ main ul #todolist{
 
     color: rgb(156, 154, 154);
 }
-
-
-#executeButton{
-    display:none;
+#enterbutton{
+    display: none;
 }
