@@ -121,7 +121,7 @@ main footer ul li{
     font-size:medium;
 
 }
-#destroy{  
+.delete{  
     float:right;
     background:transparent;
     border:none;
